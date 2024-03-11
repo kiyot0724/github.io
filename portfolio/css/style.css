@@ -1001,7 +1001,6 @@ body{
     width: 688px;
     font-size: 14px;
     line-height: 2.5;
-    padding-left: 27px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
@@ -1512,6 +1511,10 @@ padding-right: 0;
     margin: 0 auto;
 }
 
+.hover__mask{
+    display: none;
+}
+
 .title_sp {
     display: block;
     font-size: 18px;
@@ -1651,7 +1654,7 @@ padding-right: 0;
 }
 
 .fotter_menu li{
-    font-size: 16px;
+    font-size: 12px;
     padding: 22px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;   
 }
@@ -1867,7 +1870,6 @@ padding-right: 0;
     width: 100%;
     font-size: 12px;
     line-height: 2.5;
-    padding: 10px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
