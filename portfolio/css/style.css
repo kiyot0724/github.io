@@ -1703,15 +1703,12 @@ padding-right: 0;
     width: 100%;
 }
 
-.concept_text{
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
-}
-
 .concept_text h2{
     font-size: 24px;
     line-height: 1.730;
     letter-spacing: 0.045em;
     padding-top: 50px;
+    font-family: "游明朝体", "Yu Mincho", YuMincho, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック", sans-serif;
 }
 
 .concept_text p{
@@ -2064,7 +2061,7 @@ input[type="checkbox"]:checked:before {
     bottom: 20px;
     right: 20px;
     width: 50px;
-    z-index: 9999;
+    z-index: 9998;
 }
 
 #Container .mix{
