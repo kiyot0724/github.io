@@ -2057,6 +2057,10 @@ input[type="checkbox"]:checked:before {
     color: #2e1911;
 }
 
+.contact_text{
+    font-size: 12px;
+}
+
 .totop{
     position: fixed;
     bottom: 20px;
