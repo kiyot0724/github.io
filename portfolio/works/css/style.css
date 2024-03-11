@@ -134,7 +134,7 @@ body{
 }
 
 .works_title{
-    font-size: 19px;
+    font-size: 23px;
     line-height: 1.2;
     letter-spacing: 0.307em;    
     padding-left: 28px;
@@ -425,7 +425,7 @@ dd.works_text_pc {
     
     .workspage_title{
         margin: 30px 0 40px 0;
-        font-size: 21px;
+        font-size: 19px;
         line-height: 1.3636;
         letter-spacing: 0.077em;
         text-align: center;
