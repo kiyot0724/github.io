@@ -1615,7 +1615,7 @@ padding-right: 0;
 }
 
 .contact_text{
-    font-size: 14px;
+    font-size: 12px;
     margin-bottom: 20px;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
@@ -2057,9 +2057,6 @@ input[type="checkbox"]:checked:before {
     color: #2e1911;
 }
 
-.contact_text{
-    font-size: 12px;
-}
 
 .totop{
     position: fixed;
