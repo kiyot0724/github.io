@@ -1201,6 +1201,7 @@ button{
     margin-top: 20px;
     transition: all 0.5s ease;
     border-radius: 3px;
+    color: #2e1911;
 }
 
 button:hover{
