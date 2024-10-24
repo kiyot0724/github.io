@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="./js/jquery.inview.min.js"></script>
+    <title>works</title>
+</head>
+
+<body>
+
+    <header id="header_p">
+        <div class="header__inner_p">
+            <h1 class="logo">
+            </h1>
+            <nav class="gnav">
+                <ul>
+                    <li><a href="../index.html">ホーム
+                            <span>Home</span>
+                        </a></li>
+                    <li><a href="../comcept.html">概念
+                            <span>Concept</span>
+                        </a></li>
+                    <li><a href="../about.html">私について
+                            <span>About me</span>
+                        </a></li>
+                    <li><a href="../works.html">制作物
+                            <span>Works</span>
+                        </a></li>
+                    <li><a href="../contact.html">お問い合わせ
+                            <span>Contact</span>
+                        </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header id="header__sp">
+        <div class="hamberger">
+            <span></span>
+        </div>
+
+        <nav class="sp__nav">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../comcept.html">Concept</a></li>
+                <li><a href="../about.html">About me</a></li>
+                <li><a href="../works.html">Works</a></li>
+                <li><a href="../contact.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="workspage">
+        <div class="workspage_wrap js-fade">
+            <div class="works_title">Works<br>
+                <span>制作物</span>
+            </div>
+            <div class="workspage_menu">
+                <a href="../works.html">All</a>
+            </div>
+
+            <div class="workspage_menu_sp">
+                <a href="../works.html">All</a>
+            </div>
+
+            <hr color="#efe6ce" noshade size="0.1">
+            <div class="workspage_img"><img src="image/2x/works5_3@2x-100.jpg" alt=""></div>
+            <div class="workspage_title">
+                架空美容室のWebサイト
+                <p><span>Webデザイン</span></p>
+            </div>
+            <dl class="workspage_summary">
+                <dt class="works_list">概要</dt>
+                <dd class="works_text">スクール課題</dd>
+                <dt class="works_list">制作の目的</dt>
+                <dd class="works_text">認知度向上、予約獲得・SNSフォロワーUP</dd>
+                <dt class="works_list">ターゲット</dt>
+                <dd class="works_text">20代後半〜40代までの働く大人の女性</dd>
+                <dt class="works_list">デザイン</dt>
+                <dd class="works_text_pc">子連れのママでも安心して利用できるように信頼感や親しみやすさをテーマにデザインを
+                    考えました。配色は落ち着いた雰囲気の中でも可愛らしさを感じさせる配色にこだわりました。</dd>
+                <dd class="works_text_sp">子連れのママでも安心して利用できるように信頼感や親しみやすさをテーマにデザインを
+                    考えました。配色は落ち着いた雰囲気の中でも可愛らしさを感じさせる配色にこだわりました。</dd>
+                <dt class="works_list">担当範囲</dt>
+                <dd class="works_text">ワイヤーフレーム/デザインカンプ</dd>
+                <dt class="works_list">制作期間</dt>
+                <dd class="works_text">２週間</dd>
+                <dt class="works_list">使用ツール</dt>
+                <dd class="works_text">Illustrator/Photoshop</dd>
+                <div class="works_img5"><img src="image/2x/works5@2x-100.jpg" alt=""></div>
+        </div>
+        <div class="backnext"><a href="work4.html"><img src="image/2x/back@2x.png" alt=""></a><a href="works6.html"><img
+                    src="image/2x/next@2x.png" alt=""></a></div>
+    </section>
+
+    <section id="fotter">
+        <div class="fotter_menu">
+            <ul>
+                <li><a href="../index.html">ホーム</a></li>
+                <li><a href="../concept.html">概念</a></li>
+                <li><a href="../about.html">私について</a></li>
+                <li><a href="../works.html">制作物</a></li>
+                <li><a href="../contact.html">お問い合わせ</a></li>
+            </ul>
+            <p>©️ Asuka Kiyota</p>
+        </div>
+    </section>
+
+    <script>
+
+        $(function () {
+            $(".js-fade").on("inview", function () {
+                $(this).addClass("inview");
+            });
+        });
+
+
+        $('.hamberger').on('click', function () {
+            $('.sp__nav').fadeToggle();
+            $('.hamberger').toggleClass('open');
+        });
+    </script>
+</body>
+
+</html>
