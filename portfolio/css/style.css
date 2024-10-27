@@ -1787,6 +1787,7 @@ padding-right: 0;
 }
 
 .profile_text_sp{
+    padding: 0px;
     width: 100%;
     text-align: center;
 }
