@@ -1775,7 +1775,6 @@ padding-right: 0;
 
 .profile_wrap{
     display: block;
-    padding: 20px 10px 10px 10px;
     margin: 0 auto;
     align-items: center;
     justify-content: space-between;
@@ -1787,7 +1786,6 @@ padding-right: 0;
 }
 
 .profile_text_sp{
-    padding: 0px;
     width: 100%;
     text-align: center;
 }
