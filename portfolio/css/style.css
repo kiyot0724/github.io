@@ -1763,7 +1763,7 @@ padding-right: 0;
 #aboutp_sp{
     display: block;
     width: 100%;
-    height: 900px;
+    height: 1000px;
     margin-top: 242px;
     background-color: #EBE2CA;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
@@ -1787,7 +1787,6 @@ padding-right: 0;
 }
 
 .profile_text_sp{
-    padding: 10px;
     width: 100%;
     text-align: center;
 }
